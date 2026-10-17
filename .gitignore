@@ -1,31 +1,16 @@
-### IntelliJ IDEA ###
+# Java compiled output
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
-.idea
+target/
+build/
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Runtime output
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# IntelliJ IDEA
+.idea/
+*.iml
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Operating system
 .DS_Store
+Thumbs.db
